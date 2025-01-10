@@ -7,6 +7,7 @@
 /bazel-out
 
 #otros directorios
+/docs_figma
 
 # Node
 /node_modules
@@ -21,6 +22,7 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+.editorconfig
 
 # Visual Studio Code
 .vscode/*
