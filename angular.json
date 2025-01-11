@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/frontend",
+            "outputPath": "dist/ftg-team-26-frontend-pwa",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -40,8 +40,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 }
               ],
               "outputHashing": "all",
